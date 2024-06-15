@@ -23,10 +23,6 @@ const remotes = {
     url: `http://localhost:${process.env.REACT_APP_CHAT_PORT || 3006}/remoteEntry.js`,
     scope: 'chat'
   },
-  banner: {
-    url: `http://localhost:${process.env.REACT_APP_BANNER_PORT || 4000}/remoteEntry.js`,
-    scope: 'banner'
-  }
 };
 
-module.exports = { remotes };
+export default remotes

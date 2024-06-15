@@ -24,7 +24,8 @@
       "checkout",
       "product",
       "shared",
-      "main"
+      "main",
+      "banner"
     ]
   }
 }

@@ -5,6 +5,7 @@ import Hamburger from "../Hamburger";
 import Header from "../Header";
 import TopSection from "../TopSection";
 import Footer from "../Footer";
+import PromotionBanner from "../PromotionBanner";
 
 const fallbackComponent = () => {
   return (
@@ -34,6 +35,8 @@ function Layout() {
         <div className="background-fade"/>
       )} */}
       <Hamburger />
+      <PromotionBanner/>
+
       <Header />
       <div className="container">
         <TopSection />
